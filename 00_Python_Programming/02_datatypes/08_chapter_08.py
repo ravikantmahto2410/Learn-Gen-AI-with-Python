@@ -64,3 +64,26 @@ print(f"Bytes : {raw_spice_data}")
 
 
 
+
+
+####################################################################
+# My Own revision or Investigative STudy
+my_car_list = ["Range Rover", "Tata Safari", "Tata Harrier", "Tata Sierra"];
+print(f" My Car list Includes : {my_car_list}")
+my_car_list.append("Harrier.ev")    # this append method will add sugar at the end of the this list
+print(f" My Cars after append : {my_car_list}")
+print(f"ID of my_car_list  : {id(my_car_list)}")
+my_car_list.remove("Tata Safari")
+print(f" My Cars after  after remove are : {my_car_list}")
+print(f"ID of my_car_list  : {id(my_car_list)}")
+
+
+## no Lets Revise the  extend method
+my_ev_car_list = ["Harrier.ev", "Curvv.ev", "Nexon.ev", ]
+my_fuel_cars = ["Range Rover", "Tata Harrier", "Tata Safari"]
+my_ev_car_list.extend(my_fuel_cars);
+print(f"My all cars are : {my_ev_car_list}")
+
+
+
+
