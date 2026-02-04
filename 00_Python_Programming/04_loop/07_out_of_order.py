@@ -1,0 +1,49 @@
+# flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+
+# for flavour in flavours:
+#     if flavour == "Out of Stock":
+#         continue
+#     if flavour == "Discontinued":
+#         break
+#     print("Discontinued item found")
+
+# print("Outside  of loop")
+#########################################
+# flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+
+# for flavour in flavours:
+#     if flavour == "Out of Stock":
+#         continue
+#     if flavour == "Discontinued":
+#         break
+#     print(f"{flavour} item found")
+
+# print("Outside  of loop")
+
+#######################################################
+
+# flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+
+# for flavour in flavours:
+#     if flavour == "Out of Stock":
+#         continue
+#     if flavour == "Discontinued":
+#         print(f"{flavour} item found")
+#         break
+
+# print("Outside  of loop")
+
+
+################################################
+flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+
+for flavour in flavours:
+    if flavour == "Out of Stock":
+        continue
+    if flavour == "Discontinued":
+        print(f"{flavour} item found")
+        break
+    print(f"{flavour} item found")
+
+print("Outside  of loop")
+
