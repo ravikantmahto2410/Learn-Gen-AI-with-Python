@@ -1,4 +1,4 @@
-# order_amount = int(input("Enter the order amount"))
+# order_amount = input("Enter the order amount")
 
 # print(f"Order amount : {type(order_amount)}")  # here the type is showing us the type of the value that we are getting from the user that is always in str
 

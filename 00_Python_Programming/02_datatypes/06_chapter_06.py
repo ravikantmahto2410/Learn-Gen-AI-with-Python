@@ -10,8 +10,8 @@ print(f"Order for {customer_name} : {chai_type} Please!")
 
 # ### Example - 2.16.03 just above
 
-# chai_description = "Aromatic and Bold"
-# print(f"First Word : {chai_description[0:8]}")  # In this range the chai_description[0:7]  here the 7 is exclusive 
+chai_description = "Aromatic and Bold"
+print(f"First Word : {chai_description[0:8]}")  # In this range the chai_description[0:7]  here the 8 is exclusive 
 ### Example - 2.16.04 just above
 
 ###### Lets see One more interesting thing

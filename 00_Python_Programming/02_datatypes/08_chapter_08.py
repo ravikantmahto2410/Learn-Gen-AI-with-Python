@@ -6,25 +6,25 @@ ingredients.remove("water")
 print(f" Ingredients after remove are : {ingredients}")
 
 
-### Let's see some more methods 
+## Let's see some more methods 
 spice_options = ["ginger", "cardamom"]
 chai_ingredients = ["water", "milk"]
 
 chai_ingredients.extend(spice_options) #When we want to combine two lists we can do like this
 print(f"we have chai ingredients {chai_ingredients}")
 
-############################################
-## Now lets see about the insert method
+###########################################
+# Now lets see about the insert method
 chai_ingredients.insert(2, "black tea");
 print(f"we have changed the position of Chai Ingredients {chai_ingredients}")  # In insert method of list we also have to give the idx or position where we want to insert any element
 
-## pop method 
+# pop method 
 last_added = chai_ingredients.pop()
 print(f" The last added ingredient in chai_ingredient is : {last_added}")
 print(f"we have poped the last added ingredient from  Chai Ingredients {chai_ingredients}")  # In insert method of list we also have to give the idx or position where we want to insert any element
 
 
-## reverse method
+# reverse method
 chai_ingredients.reverse()
 print(f"we have reversed  Chai Ingredients {chai_ingredients}")  # In insert method of list we also have to give the idx or position where we want to insert any element
 
@@ -85,5 +85,58 @@ my_ev_car_list.extend(my_fuel_cars);
 print(f"My all cars are : {my_ev_car_list}")
 
 
+##### Revision
+#### Revision 2nd time date - 14/08/2026
+
+mycars = ['harrier', 'fortuner', 'safari'];
+print(f'my cars are : {mycars}')
+
+mycars.append("curvv")
+print(f'mycars after append : {mycars}')
+mycars.append(['Bullet 350','Hunter'])
+print(f'mycars after append CDT : {mycars}')
+
+mycars.append(0)
+print(f'mycars appended : {mycars}')
+
+mycars.append({'GLA','GLS', 'GLC'})
+print(f'my cars appended again : {mycars}')
+
+mycars.append(('Grand Vitara', 'Scorpio', 'XUV700'))
+print(f'mycars appended again {mycars}')
 
 
+### remove method
+mycars.remove(['Bullet 350', 'Hunter'])
+print(f'mycars should not have bike:{mycars}')
+
+mycars.remove(0)
+print(f'my cars should have no numbers {mycars}')
+
+mycars.remove({'GLS','GLA','GLC'})
+print(f'mycars list should not have costly cars {mycars}')
+
+mycars.remove(('Grand Vitara', 'Scorpio', 'XUV700'))
+print(f'mycar list remove these vehicles:{mycars}')
+
+
+### extend methods
+
+tatacars = ['Harrier', 'Safari', 'Curvv']
+toyotacars = ['Fortuner', 'Innova', 'Glanza']
+
+tatacars.extend(toyotacars)
+print(f'toyota cars mixed into : {tatacars}')
+tatacars.extend('Nexon')
+print(f'can we print  {tatacars}')
+
+tatacars.extend({'tiago','Tigor'})
+print(f'more tata cars:{tatacars}')
+
+tatacars.extend(('Sierra'))
+print(f'one more card added : {tatacars}')
+tatacars.extend(('Punch',))
+print(f'more tata cars added : {tatacars}')
+
+### insert method
+## syntax : 
